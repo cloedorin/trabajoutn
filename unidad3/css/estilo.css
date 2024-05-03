@@ -1,9 +1,47 @@
-.fondo {
-    background-color: rgb(105, 115, 124);
+@font-face {
+    font-family:Nunito-Black ;
+    src: url(../fonts/Nunito-Black.ttf);
 }
 
+@font-face {
+    font-family:Nunito-Bold ;
+    src: url(../fonts/Nunito-Bold.ttf);
+}
+
+@font-face {
+    font-family:Nunito-extralight ;
+    src: url(../fonts/Nunito-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family:OpenSans-Bold ;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family:OpenSans-Regular ;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+
+.fondo {
+    font-family:Nunito-Bold ;
+    background-image: url(../images/fondo.jpg);
+}
+
+.fondo2 {
+    background-color: rgba(255, 255, 255, 0.625);
+    width: 1000px;
+    
+    margin: 40px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius:30px ;
+}
 .blanco {
-    color: rgb(255, 255, 255);
+    color: rgb(247, 77, 170);
 }
 
 .posicion1 {
