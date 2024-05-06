@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+<link href="./css/estilo.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<div class="position-relative">
+    <div class="blanco" style="height: 100px; background-color: #F2F2F2;">
+      <div class="container" style="height: 100px;">
+        <div class="row h-100">
+          <div class="container-fluid" style="height: 100px;">
+            <div class="offset-md-10">
+              <button type="button" class="boton btn btn-primary" data-toggle="modal" data-target="#ejemploModal">LOGIN</button>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+      <div  style="height: 65px; background-color: #343a40; position: relative;">
+      <div class="container" style="height: 65px;">
+          <div class="row ">
+            <div class="container-fluid " style="height: 65px;">
+                <div class="row col-md-12" style="margin-right: 0px;">
+
+                  <nav class="navbar navbar-expand-lg navbar-dark bg-dark offset-md-8" >
+                    
+    
+                        <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                          </button>
+    
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav ml-auto">
+    
+                          <li class="nav-item " >
+                          <a class="nav-link"   href="#quienesomos">Organización</a>
+                          </li>
+
+                          <li class="nav-item">
+                          <a class="nav-link"   href="#comofunciona">Personal</a>
+                          </li>
+
+                            <li class=" nav-item">
+                            <a class="nav-link"  href="#contacto">Contacto</a>
+                            </li>
+                            
+                            <li class=" nav-item">
+                            <a class="nav-link"  href="#inscribite">Inscribite</a>
+                            </li>
+                        </ul>
+                      
+                      </div>
+
+                  </nav>
+                </div>
+            </div>
+        </div>
+      </div>
+      </div>
+      <div>
+      <img src="./images/logo.png" alt="Logo"  class="logo">
+    </div>
+</div>
+
+<section id="contacto">
+    <div class="cuestionario" style=" background-color: #D9D9D9;" >
+    <div class="container cuestionario" >
+    <div class="row h-100">
+      <div class="container-fluid cuestionario" >
+        
+        <div class="col-md-3 mx-auto text-center" style="color: #8C0303;margin-top: 50px;">
+          <h3><strong>Contactanos</strong></h3>
+        </div>
+        
+      
+        <div class="container" id="formu" style="margin-top: 50px;">
+          <form id="idCaja3">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group formulario">
+                  <label for="exampleInputname" class="form-label"><i class="bi bi-person"></i>&nbsp;Nombre</label>
+                  <input type="name" class="form-control" id="exampleInputname" aria-describedby="namehelp">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group formulario">
+                  <label><i class="bi bi-person-circle"></i>&nbsp;Apellido</label>
+                  <input type="text" name="" value="" class="form-control" >
+              </div>
+                </div>
+              </div>
+            
+            <div class="row" >
+              <div class="col-sm-4 col-xs-4">
+                <div class="form-group formulario" >
+                  <label for="exampleInputEmail1" class="form-label"><i class="bi bi-envelope-at"></i>&nbsp;Email </label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+              </div>
+              <div class="col-sm-4 col-xs-4">
+                <div class="form-group formulario">
+                  <label for="numero"><i class="bi bi-telephone"></i>&nbsp;Número:</label>
+                  <input type="number" class="form-control" id="numero" name="numero">
+                </div>
+              </div>
+              <div class="col-sm-4 col-xs-4 d-flex align-items-center justify-content-center">
+                <div class="form-group formulario">
+                  <label for="provincia"><i class="bi bi-house"></i>&nbsp;Provincia:</label>
+                  <select id="provincia" name="provincia">
+                    <option disabled selected hidden>Seleccionar provincia</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Santa Fe">Santa Fe</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="Entre Ríos">Entre Ríos</option>
+                    <option value="Tucumán">Tucumán</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row" id="fila2">
+              <div class="col-sm-4 col-xs-4 offset-md-4 ">
+                <div class="form-group formulario">
+              <label for="comentario" class="form-label"><i class="bi bi-chat-left"></i>&nbsp;Comentario</label>
+                <textarea class="form-control" id="comentario" rows="3"></textarea>
+                  </div>
+            </div>
+              </div>
+             
+              <div class="row" style="margin-top: 50px;">
+                <div class="form-group formulario">
+                    <button id="id_ocultar" class="btn btn-success boton2" ><strong>Enviar consulta</strong></button>
+              </div>
+            </div>
+              </form>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <footer class="bg-dark pb-sm-4 pb-2" >
+        <div class="container" >
+          <div class="row" >
+            <div class="col-md-6 centrar text-md-left">
+              <br>
+              <a href="#" class="mb-0">Términos y Condiciones │ Contáctanos</a>
+            </div>
+            <div class="col-md-6 text-md-right iconos ">
+              <br>
+              <a href="#" class="text-white mr-3"><i class="fab fa-facebook fa-lg"></i></a>
+              <a href="#" class="text-white mr-3"><i class="fab fa-instagram fa-lg"></i></a>
+            </div>
+          </div>
+          <hr class="my-3 border-light">
+          <p class="text-center mb-0 mt-3">
+            <a href="#" class="mb-0">©2023 Todos los derechos reservados - Gym</a>
+          </p>
+        </div>
+      </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-
++sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</html>
