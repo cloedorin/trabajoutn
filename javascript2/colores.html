@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colores</title>
+</head>
+<body>
+    
+    <style>
+        .cuadrado {
+          width: 100px;
+          height: 100px;
+          display: inline-block;
+          margin: 10px;
+          cursor: pointer;
+        }
+      </style>
+      </head>
+      <body>
+        <div class="cuadrado" id="cuadrado1" style="background-color: rgb(237, 172, 172);"></div>
+        <div class="cuadrado" id="cuadrado2" style="background-color: rgb(156, 156, 221);"></div>
+        <div class="cuadrado" id="cuadrado3" style="background-color: rgb(152, 228, 152);"></div>
+      
+        <script>
+          document.getElementById('cuadrado1').addEventListener('click', function() {
+            document.body.style.backgroundColor = 'rgb(237, 172, 172)';
+          });
+      
+          document.getElementById('cuadrado2').addEventListener('click', function() {
+            document.body.style.backgroundColor = 'rgb(156, 156, 221)';
+          });
+      
+          document.getElementById('cuadrado3').addEventListener('click', function() {
+            document.body.style.backgroundColor = 'rgb(152, 228, 152)';
+          });
+        </script>
+
+</body>
+</html>
